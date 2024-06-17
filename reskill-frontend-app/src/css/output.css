@@ -570,19 +570,63 @@ video {
   display: none;
 }
 
-.p-20 {
-  padding: 5rem;
+.page-padding {
+  padding: 50px;
+  width: 100%;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.main-article {
+  text-align: center;
 }
 
-.font-bold {
-  font-weight: 700;
+.related-articles {
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.underline {
-  text-decoration-line: underline;
+.soc-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
 }
+
+.footer {
+  border-top: inset;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.setting-margins {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.setting-right {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+.children-padding {
+  padding: 10px;
+}
+
+.items-padding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+

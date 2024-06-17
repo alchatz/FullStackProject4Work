@@ -9,10 +9,10 @@ export default function RelatedArticlePost (props) {
 
     return (
         <card>
-            <Link to={linkId}>
+            <a href={linkId}>
                 <img src={articleImage} className="Related Article Image" alt="Related Article Image" />
                 <p>{title}</p>
-            </Link>
+            </a>
             <p>{author}</p>
         </card>
     )

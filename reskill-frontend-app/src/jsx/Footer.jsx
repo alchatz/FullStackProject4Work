@@ -5,22 +5,26 @@ function Footer() {
     const siteName = 'Site Name'
 
     return (
-        <div>
-            <div>
+        <div class='footer'>
+            <div class = 'footer-left-side'>
                 <p>{siteName}</p>
-                <SocialButton buttonId='FB' />
-                <SocialButton buttonId='LN' />
-                <SocialButton buttonId='YT' />
-                <SocialButton buttonId='IN' />
+                <div class='soc-buttons'>
+                    <SocialButton buttonId='FB' />
+                    <SocialButton buttonId='LN' />
+                    <SocialButton buttonId='YT' />
+                    <SocialButton buttonId='IN' />
+                </div>
             </div>
-            <div>
-                <Items />
-            </div>
-            <div>
-                <Items />
-            </div>
-            <div>
-                <Items />
+            <div class='items-padding'>
+                <div class='children-padding'>
+                    <Items />
+                </div>
+                <div class='children-padding'>
+                    <Items />
+                </div>
+                <div class='children-padding'>
+                    <Items />
+                </div>
             </div>
         </div>
     )

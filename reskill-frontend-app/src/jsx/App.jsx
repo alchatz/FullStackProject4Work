@@ -6,11 +6,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
+    <div>
+      <div class='page-padding'>
         <Homepage />
       </div>
-    </>
+    </div>
   )
 }
 

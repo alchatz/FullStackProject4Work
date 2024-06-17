@@ -11,13 +11,13 @@ export default function SinglePost() {
     const postImg = ''
 
     return (
-        <>
+        <div class='page-padding'>
             <Navigator />
             <h1>{postTitle}</h1>
             <p>{postSubheader}</p>
             <p>{postBody}</p>
             <img src={postImg}/>
             <Footer />
-        </>
+        </div>
     )
 }

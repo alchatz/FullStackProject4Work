@@ -4,13 +4,15 @@ export default function Navigator() {
     const button = 'Button'
 
     return (
-        <div>
+        <div class='setting-margins'>
             <h5>{siteName}</h5>
-            <div>{page}</div>
-            <div>{page}</div>
-            <div>{page}</div>
-            <button>{button}</button>
+            <div class='setting-right'>
+                <div class='children-padding'>{page}</div>
+                <div class='children-padding'>{page}</div>
+                <div class='children-padding'>{page}</div>
+                <button class='children-padding'>{button}</button>
+            </div>
         </div>
-        
+
     )
 }
